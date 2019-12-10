@@ -1,7 +1,7 @@
 import basic
 
 while True:
-	text = input('Chris > ')
+	text = input('PL > ')
 	if text.strip() == "": continue
 	result, error = basic.run('<stdin>', text)
 
